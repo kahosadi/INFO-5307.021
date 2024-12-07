@@ -1,1 +1,7 @@
 streamlit
+pandas
+json
+pathlib
+pyjarowinkler
+scikit-learn
+re
