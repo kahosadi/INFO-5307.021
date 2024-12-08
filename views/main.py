@@ -14,8 +14,7 @@ __data_path_auth = str(Path.cwd())+"/data/fla/name_authority_fbs.json"
 metadata = []
 
 def read_json(file_path):
-    st.write(file_path)
-    with open(file_path, 'r', errors="ignore") as file:
+    with open(file_path, 'r') as file:
         data = json.load(file)
         
     return data
