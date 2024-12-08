@@ -3,13 +3,6 @@ import streamlit as st
 st.set_page_config(
     page_title = "Metadata Evaluator v0.1"
 )
-
-#st.title("Metadata Evaluator v0.1")
-
-#sidebar
-#with st.sidebar:
-#    st.header("Menu")
-#    st.subheader("Menu")
    
 #page setup
 main_page = st.Page(
