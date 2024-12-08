@@ -25,7 +25,7 @@ def json_to_dataframe(file_path):
         print(f"An unexpected error occurred: {e}")
         return None
 
-data_path = str(Path.cwd())+"\\data\\fla\\name_authority_fbs.json"
+data_path = str(Path.cwd())+"/data/fla/name_authority_fbs.json"
 
 st.title("Name Authority Headings")
 st.dataframe(json_to_dataframe(data_path), hide_index=True, selection_mode="single-row")
