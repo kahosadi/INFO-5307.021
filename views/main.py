@@ -8,7 +8,7 @@ from pyjarowinkler import distance
 import enapatitlecasechecker as ch
 import keywordsabstract as kw
 
-__data_path = "D:\\OneDrive\\Master of Information Science-UNT\\3-Fall 2024\\INFO5307_021_Proj\\data\\fla\\items_fbs.json"
+__data_path = str(Path.cwd()) + "/data/fla/items_fbs.json"
 __data_path_auth = "D:\\OneDrive\\Master of Information Science-UNT\\3-Fall 2024\\INFO5307_021_Proj\\data\\fla\\name_authority_fbs.json"
 metadata = []
 
