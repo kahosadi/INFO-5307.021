@@ -48,9 +48,9 @@ def query_json_metadata(data, key):
 
 
 def populate_selectbox(search_filter="Title"):
-    if search_filter == "Title"
+    if search_filter == "Title":
         return query_json(__data, "title")
-    elif search_filter == "Author"
+    elif search_filter == "Author":
         return query_json(__data, "creator")
     
 def evaluate_title(title):
