@@ -48,15 +48,11 @@ def query_json_metadata(data, key):
 
 
 def populate_selectbox(search_filter="Title"):
-    #data = read_json("D:\\OneDrive\\Master of Information Science-UNT\\3-Fall 2024\\INFO5307_021_Proj\\data\\fla\\items_fbs.json")
-    match search_filter:
-        case "Title":
-            return query_json(__data, "title")
-        case "Author":
-            return query_json(__data, "creator")
-        #case "Advisor":
-        #    pass
-
+    if search_filter == "Title"
+        return query_json(__data, "title")
+    elif search_filter == "Author"
+        return query_json(__data, "creator")
+    
 def evaluate_title(title):
     checker = ch.enapatitlecasechecker()
     return checker.check_apa_title_case(title)
